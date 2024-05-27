@@ -3,9 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Espaço Psi</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>
     
+    <!-- Aqui será o header -->
+    <header>
+        <nav>
+            <div>
+                <img  class="logo" src="./assets/img/logo-removebg-preview.png" alt="">
+            </div>
+            <a onclick="goTo('TitleServico')"><b>Nossos Serviços</b></a>
+            <a onclick="goTo('TitleSpace')"><b>Nosso Espaço</b></a>
+            <a onclick="goTo('TitleWe')"><b>Quem Somos</b></a>
+            <a onclick="goTo('TitleContact')"><b>Contato</b></a>
+            <a onclick="goTo('TitleSchedule')" class="agendar"><b>Agendamento</b></a>
+        </nav>
+    </header>
+
+    <!-- Aqui é o título da página -->
+    <div class="Title">
+        <h1>Seu lugar de acolhimento e conforto</h1>
+
+        <p>Por que procurar terapia?</p>
+    </div>
+
+    <!-- Div da box com as informações sobre fazer terapia -->
+    <div class="Box-Info">
+        <img
+        class="img-info"
+        src="./assets/img/img-psi-info.jpg"
+        alt="">
+
+        <p class="textbox-info">A terapia é um muito importante para que deseja entender melhor
+            a si mesmo, superar desafios emocionais e viver de maneira mais plena.
+            No Espaço Psi, oferecemos um espaço onde você pode explorar seus
+            sentimentos e pensamentos com a orientação de profissionais qualificados,
+            sempre em um ambiente de total confidencialidade e respeito.
+        </p>
+    </div>
+
+    <!-- Div dos serviços oferecidos -->
+    <h1 id="TitleServico">Nossos Serviços:</h1>
+
+    <div class="Services">
+        
+        <div class="Teenage">
+            <h2>Terapia para Adolescentes</h2>
+            <p>
+                Ajudamos jovens a lidar com as complexidades da adolescência
+                proporcionando ferramentas para enfrentar questões como
+                autoestima, ansiedade e relacionamentos.
+            </p>
+        </div>
+
+        <div class="Couple">
+            <h2>Terapia de casal e familiar</h2>
+            <p>
+                Fortalecemos relacionamentos e ajudamos a resolver conflitos
+                para uma convivência harmoniosa.
+            </p>
+        </div>
+
+        <div class="Self">
+            <h2>Autoconhecimento</h2>
+            <p>
+                Entenda melhor suas emoções, comportamentos e padrões de pensamento
+            </p>
+        </div>
+
+    </div>
+
+    <h1 id="TitleSpace">Nosso espaço</h1>
+
+    <!-- Aqui terá o carrosel de imagens -->
+    
+
+    <div class="Info">
+        
+        <div class="text-info">
+            <h2 id="TitleWe">Quem somos?</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum,
+                cupiditate animi. Dolorem culpa iusto quidem laborum illum esse molestiae
+                rem repellendus itaque fugiat fuga nobis quaerat, rerum natus modi inventore.</p>
+        </div>
+
+        <div class="Person-info">
+            <!-- colocar aqui a imagem da suposta avó de Kami -->
+            <h4>Valeria Ribeiro</h4>
+            <p>CRP 00/000000</p>
+            <p>Psicóloga Clínica</p>
+        </div>
+
+    </div>
+
+    <!-- Forms para Agendamento de Consultas -->
+    <form method="post" action="https://formsubmit.co/contato@espacopsi.com.br" class="Agendamento" id="TitleSchedule">
+
+        <input type="text" placeholder="Nome" id="Nome">
+        <input type="email" placeholder="Email" id="Email">
+        <input type="text" placeholder="Whatsapp" id="Celular">
+        <button type="submit" id="button">Agende agora!</button>
+    </form>
+
+    <div class="Contato">
+        <h2 id="TitleContact">Contato</h2>
+        <h4>Tem alguma dúvida ou gostaria de saber mais
+            sobre nossos serviços?
+        </h4>
+        <h4>Entre em contato conosco!</h4>
+
+        <p>Telefone: (XX) XXXXX-XXXX</p>
+        <p>Email: contato@espacopsi.com.br</p>
+        <p>Endereço: Rua Exemplo, 1234</p>
+    </div>
+
+    <footer>
+        <p>Insira o Footer Aqui!</p>
+    </footer>
+
 </body>
 </html>
