@@ -98,3 +98,67 @@ a:hover{
     font-size: 13px;
 }
 
+.Agendamento{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 3%;
+    background-color: white;
+    border-radius: 15px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Agendamento input, .Agendamento button{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font: inherit;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+}
+
+.Agendamento button{
+    background: #57447B;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.Agendamento button:hover{
+    cursor: pointer;
+    color: lightgray;
+}
+
+.Contato{
+    font-family: 'Open Sans', sans-serif;
+    display: flexbox;
+    text-align: center;
+    padding: 3%;
+}
+
+.contato_text{
+    font-family: 'Open Sans', sans-serif;
+    padding: 1%;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.endlogo{
+    width: 10%;
+    text-align: left;
+}
+
+h4, p{
+    padding-bottom: 10px;
+}
