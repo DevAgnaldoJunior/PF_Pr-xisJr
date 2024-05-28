@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./assets/img/icone_livro.png">
     <script src="./assets/js/script.js"></script>
 </head>
 <body>
@@ -102,8 +103,9 @@
     </div>
 
     <!-- Forms para Agendamento de Consultas -->
-    <form method="post" action="https://formsubmit.co/contato@espacopsi.com.br" class="Agendamento" id="TitleSchedule">
+    <form class="Agendamento" id="TitleSchedule" action="https://formsubmit.co/contato@espacopsi.com.br"  method="POST">
 
+        <legend><b>Agendamento</b></legend>
         <input type="text" placeholder="Nome" id="Nome">
         <input type="email" placeholder="Email" id="Email">
         <input type="text" placeholder="Whatsapp" id="Celular">
@@ -111,19 +113,29 @@
     </form>
 
     <div class="Contato">
-        <h2 id="TitleContact">Contato</h2>
-        <h4>Tem alguma dúvida ou gostaria de saber mais
+        <h1 id="TitleContact">Contato</h1>
+        <h3 class="contato_text">Tem alguma dúvida ou gostaria de saber mais
             sobre nossos serviços?
-        </h4>
+        </h3>
         <h4>Entre em contato conosco!</h4>
-
         <p>Telefone: (XX) XXXXX-XXXX</p>
-        <p>Email: contato@espacopsi.com.br</p>
-        <p>Endereço: Rua Exemplo, 1234</p>
     </div>
 
-    <footer>
-        <p>Insira o Footer Aqui!</p>
+
+    <footer class="footer"><!--rodapé-->
+        <img class="endlogo" src="./assets/img/logo-removebg-preview.png" alt="">
+        <div class="footer_info">
+            <h4>Conheça nossas redes sociais:</h4>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>LinkedIn</p>
+        </div>
+        <div class="footer_info">
+            <h4>Endereço</h4>
+            <p>Rua Exemplo, 1234</p>
+            <h4>Email:</h4>
+            <p>contato@espacopsi.com.br</p>
+        </div>
     </footer>
 
 </body>
