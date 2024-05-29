@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
+/* Reset de CSS */
 *{
     margin: 0px;
     padding: 0px;
@@ -19,6 +19,8 @@ body{
     align-items: center;
 }
 
+
+/* Estilização do Header / Nav */
 nav{
     display:flex; 
     background-color: #D5CADB;
@@ -64,6 +66,8 @@ a:hover{
 .header_fill{
     height: 60px;
 }
+/* Fim da estilização do Header / Nav */
+
 
 .Box-Info{
     font-family: 'Open Sans', sans-serif;
@@ -98,6 +102,8 @@ a:hover{
     font-size: 13px;
 }
 
+
+/* Estilização do Formulário de Agendamento */
 .Agendamento{
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -132,7 +138,10 @@ a:hover{
     cursor: pointer;
     color: lightgray;
 }
+/* Fim da estilização do formulário de Agendamento */
 
+
+/* Estilização da parte de Contato */
 .Contato{
     font-family: 'Open Sans', sans-serif;
     display: flexbox;
@@ -144,8 +153,10 @@ a:hover{
     font-family: 'Open Sans', sans-serif;
     padding: 1%;
 }
+/* Fim da estilização da parte de Contato */
 
 
+/* Estilização do Footer */
 footer{
     display: flex;
     flex-direction: row;
@@ -162,3 +173,4 @@ footer{
 h4, p{
     padding-bottom: 10px;
 }
+/* Fim da estilização do Footer */
