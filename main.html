@@ -1,120 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="GMT-4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espaço Psi</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 <body>
-    
-    <!-- Aqui será o header -->
+
+
+<!--Menu de navegacão-->
     <header>
-        <p>Insira o Header Aqui!</p>
+        <img src="./assets/img/logo.jpeg" >
+        <nav id="nav">
+        
+        <div class="funciona">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="hamburger"></span>  <a href="https://www.teamcherry.com.au/" target="_blank"> <button class="agend-mobile"> Agendamento </button> </a> 
+                </button> </div>
+                <ul id="menu" role="menu">
+                <li> <a href="#Nosso_servico" class="nav-content"> Nosso Serviço </a>  </li>
+                <li> <a href="#Nosso_espaco" class="nav-content"> Nosso Espaço </a>  </li>
+                <li> <a href="#Quem_somos" class="nav-content"> Quem Somos? </a>  </li>
+                <li> <a href="#contato" class="nav-content"> Contato </a>  </li>
+                <li> <a href="#TitleSchedule"> <button class="agend"> Agendamento </button> </a>  </li>
+            </ul>
+        </nav>
     </header>
-
-    <!-- Aqui é o título da página -->
-    <div class="Title">
-        <h1>Seu lugar de acolhimento e conforto</h1>
-
-        <p>Por que procurar terapia?</p>
-    </div>
-
-    <!-- Div da box com as informações sobre fazer terapia -->
-    <div class="Box-Info">
-        <img 
-        class="img-info"
-        src="./assets/img/img-psi-info.jpg"
-        alt="">
-
-        <p>A terapia é um muito importante para que deseja entender melhor
-            a si mesmo, superar desafios emocionais e viver de maneira mais plena.
-            No Espaço Psi, oferecemos um espaço onde você pode explorar seus
-            sentimentos e pensamentos com a orientação de profissionais qualificados,
-            sempre em um ambiente de total confidencialidade e respeito.
-        </p>
-    </div>
-
-    <!-- Div dos serviços oferecidos -->
-    <h1>Nossos Serviços:</h1>
-
-    <div class="Services">
-        
-        <div class="Teenage">
-            <h2>Terapia para Adolescentes</h2>
-            <p>
-                Ajudamos jovens a lidar com as complexidades da adolescência
-                proporcionando ferramentas para enfrentar questões como
-                autoestima, ansiedade e relacionamentos.
-            </p>
-        </div>
-
-        <div class="Couple">
-            <h2>Terapia de casal e familiar</h2>
-            <p>
-                Fortalecemos relacionamentos e ajudamos a resolver conflitos
-                para uma convivência harmoniosa.
-            </p>
-        </div>
-
-        <div class="Self">
-            <h2>Autoconhecimento</h2>
-            <p>
-                Entenda melhor suas emoções, comportamentos e padrões de pensamento
-            </p>
-        </div>
-
-    </div>
-
-    <h1>Nosso espaço</h1>
-
-    <!-- Aqui terá o carrosel de imagens -->
+<div>
     
+<section id="center">
 
-    <div class="Info">
+    
+    <!-- Aqui é o título da página -->
+    <div class="title" id="Nosso_servico">
+        <h1>Seu lugar de <br> acolhimento e conforto </h1> 
+        </div>
         
-        <div class="text-info">
-            <h2>Quem somos?</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, 
-                cupiditate animi. Dolorem culpa iusto quidem laborum illum esse molestiae
-                rem repellendus itaque fugiat fuga nobis quaerat, rerum natus modi inventore.</p>
+         
+            <p class="sub-title">Porque procurar terapia?</p>
+            <script src="./assets/JS/mobile-navbar.js"></script>
+            <!-- Div da box com as informações sobre fazer terapia -->
+        
+            <div class="Box-Info" >
+                <img 
+                class="img-info"
+                src="./assets/img/img-psi-info.jpg"
+                alt="">
+        
+                <div class="textbox-info"> <p> A terapia é um muito importante para que deseja entender melhor
+                    a si mesmo, superar desafios emocionais e viver de maneira mais plena.<p>
+                    No Espaço Psi, oferecemos um espaço onde você pode explorar seus sentimentos e pensamentos com a orientação de profissionais 
+                    qualificados, sempre em um ambiente de total confidencialidade e respeito.
+                </div>
+            </div>
+            <!-- Div dos serviços oferecidos -->
+        <section class="service"> <h1 class="service-title"> Nossos serviços:</h1> 
+            <div class="works"> 
+                <div class = "box"> 
+                <h1> Terapia para adolescentes:</h1> <p> Ajudamos jovens a lidar com as complexidades da adolescencia proporcionando ferramentas pra enfrentar questãos como autoestima, ansiedade e relacionamentos </p> 
+                </div>
+                <div class="box"> <h1>Terapia de casal e familiar:</h1> 
+                    <p>Fortalecemos relacionamentos e ajudamos a resolver conflitos para uma convivencia hamorniosa.</p>
+                </div>
+        
+                <div class="box"> <h1>Auto conhecimento</h1> 
+                    <p>Entenda melhor sua emoções, comportamentos e padrões de pensamento.</p>
+                </div>
+            </div>
+         </section>
+         <h1 class="space_title" id="Nosso_espaco">Nosso espaço:</h1>
+        <section class="section_carrosel" >
+            
+            <div class="espaco_carrosel">
+                <img src="assets/img/seta-esquerda.png" alt="Seta Esquerda" class="seta_esquerda" onclick="trocarImagem()">
+                <img src="assets/img/recepção3.jpg" alt="Silksong" width="800px" height="500px" id="imagem" class="carrosel">
+                <img src="assets/img/seta-direita.png" alt="Seta Direita" class="seta_direita" onclick="trocarImagem()">
+            </div>
+             <script>
+                var estado = 1;
+                function trocarImagem() { 
+                    var imagem = document.getElementById("imagem");
+                     if (estado == 1) {
+                         imagem.src = "assets/img/escritorio.jpg";
+                          estado = 2; 
+                     } else if (estado == 2) {
+                         imagem.src = "assets/img/recepção.jpg"; 
+                         estado = 3; // 
+                     } else if (estado == 3) {
+                         imagem.src = "assets/img/recepcao2.jpg"; 
+                         estado = 4; 
+                     }  else if (estado == 4) {
+                         imagem.src = "assets/img/cadeiras2.jpg"; 
+                         estado = 5;
+                     }else {
+                         imagem.src = "assets/img/recepção3.jpg"; 
+                         estado = 1; 
+                     }         
+                     
+                }
+                </script>
+        </section>
+        
+        
+        <div class="Espaco-QuemSomos" id="Quem_somos">
+            <div class="text-info">
+                <h1 class="Titulo_QuemSomos">Quem somos?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum,
+                    cupiditate animi. Dolorem culpa iusto quidem laborum illum esse molestiae
+                    rem repellendus itaque fugiat fuga nobis quaerat, rerum natus modi inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste illum, eum nisi ab velit ducimus libero nulla, voluptas unde labore eveniet optio possimus mollitia voluptatum! Possimus vel repellat atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eos esse officia sit obcaecati quos beatae fuga quo eveniet ea sint labore consequuntur odit illo provident! Ut pariatur et tempore?</p>
+            </div>
+        
+        
+        
+        
+        
+                <div class="Person-info">
+                    <div class="Foto-Cliente">
+                    <img src="assets/img/psicologa.png" alt="" class="borda_folhas">                  
+                    </div> 
+                       <div class="Nome_Crp">
+                           <h4>Seu Nome</h4>
+                           <p>CRP 00/00000</p>
+                           <p>Psicologa Clínica</p>
+                   
+               
+               </div>
+            </div>
+        
+        
+        </div>
+        <form class="Agendamento" id="TitleSchedule"  action="https://formsubmit.co/contato@espacopsi.com.br"  method="POST">
+        
+            <legend class="legenda" ><b>AGENDAMENTO</b ></legend>
+            <input type="text" placeholder="Nome" id="Nome">
+            <input type="email" placeholder="Email" id="Email">
+            <input type="text" placeholder="Whatsapp" id="Celular">
+            <button type="submit" id="button">Agende agora!</button>
+        </form>
+        
+        <div class="Contato" id="contato">
+            <h1 id="TitleContact">Contato</h1>
+            <h3 class="contato_text">Tem alguma dúvida ou gostaria de saber mais
+                sobre nossos serviços?
+            </h3>
+            <h4>Entre em contato conosco!</h4>
+            <p>Telefone: (XX) XXXXX-XXXX</p>
         </div>
 
-        <div class="Person-info">
-            <!-- colocar aqui a imagem da suposta avó de Kami -->
-            <h4>Valeria Ribeiro</h4>
-            <p>CRP 00/000000</p>
-            <p>Psicóloga Clínica</p>
-        </div>
 
+</section>
+  
+
+
+<footer class="footer"><!--rodapé-->
+    <img class="endlogo" src="./assets/img/logo-removebg-preview.png" alt="">
+    <div class="footer_info">
+        <h4>Conheça nossas redes sociais:</h4>
+        <a href="#"> <img src="./assets/img/icons/facebook.png"></a>
+        <a href="#"> <img src="./assets/img/icons/instagram.png"></a>
+        <a href="#"> <img src="./assets/img/icons/whatsapp.png"></a>
     </div>
-
-    <!-- Forms para Agendamento de Consultas -->
-    <form method="post" action class="Agendamento">
-
-        <input type="text" placeholder="Nome" id="Nome">
-        <input type="email" placeholder="Email" id="Email">
-        <input type="text" placeholder="Whatsapp" id="Celular">
-        <button type="submit" id="button">Agende agora!</button>
-    </form>
-
-    <div class="Contato">
-        <h2>Contato</h2>
-        <h4>Tem alguma dúvida ou gostaria de saber mais
-            sobre nossos serviços?
-        </h4>
-        <h4>Entre em contato conosco!</h4>
-
-        <p>Telefone: (XX) XXXXX-XXXX</p>
-        <p>Email: contato@espacopsi.com.br</p>
-        <p>Endereço: Rua Exemplo, 1234</p>
+    <div class="footer_info">
+        <h4>Endereço</h4>
+        <p>Rua Exemplo, 1234</p>
+        <h4>Email:</h4>
+        <p>contato@espacopsi.com.br</p>
     </div>
-
-    <footer>
-        <p>Insira o Footer Aqui!</p>
-    </footer>
-
+</footer>
 </body>
 </html>

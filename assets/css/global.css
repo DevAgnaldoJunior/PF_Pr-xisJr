@@ -1,0 +1,260 @@
+body{
+    background-image: linear-gradient(to top, #BC95D2, white);
+}
+
+
+p{font-size: 20px; 
+    font-weight: 500;
+}
+
+.title {padding-top: 10rem;
+    font-size: 35px;
+    width: 75% ; max-width: 1550px;
+}
+
+.sub-title { padding-top: 1rem; color: #828282;  
+    width: 75%; 
+    max-width: 1550px; 
+    font-size: 25px;
+}
+
+
+.Box-Info{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    text-align: justify;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    width: 70%;
+    max-width: 1500px;
+    min-width: 860px;
+    height: 595px;
+    box-shadow: 0 0 15px rgba(255, 253, 253, 0.5);
+    background-color: #707A9C5C;
+    margin-top: 2rem;
+}
+
+.Box-Info:hover{
+    box-shadow: 0 0 15px rgb(213, 202, 219);
+}
+
+.img-info{
+    height: 560px;
+}
+
+
+.textbox-info{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size: 20px;
+    padding-left: 3rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.service{ margin-top: 10rem;  
+    align-items: center;
+    width: 90%;
+    max-width: 1800px; 
+    padding-bottom: 10rem;
+    
+    
+}
+
+.service-title{ font-size: 50px;
+}
+
+
+.works{ 
+    display: flex; 
+    padding-top: 5rem;
+    column-gap: 7rem; 
+    line-height: 26.98px;
+    display: flex;
+    
+}
+.works p { padding-top: 3rem; 
+    padding-bottom: 3rem; 
+    padding-left: 1rem;
+    font-size: 20px; 
+    font-weight: 500;  
+}
+
+.works h1 { 
+    padding-top: 1.5rem; 
+    padding-left: 1rem;
+}
+
+.box{  width: 70% ;
+background-color:#a7c3b7; border-radius: 20px;
+     /* Espaçamento interno */
+    text-align: center; 
+}   
+
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space_title{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+
+.espaco_carrosel{
+
+
+    display: flex;
+    gap: 1rem; 
+    flex-direction: row;
+    align-items: center;
+  
+  
+}
+.carrosel{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.826);
+    transition: box-shadow 0.2s ease;
+    border-radius: 20px; 
+    background-color: #a7c3b7;
+    width: 100vh; 
+    height: auto;
+    max-width: 1200px;
+    
+   
+}
+.carrosel:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.826);
+}
+
+
+
+.seta_esquerda, .seta_direita{
+  
+    
+    cursor: pointer;
+    flex: 0 1 auto; /* Permite que a imagem mantenha seu tamanho original */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+.Espaco-QuemSomos{
+margin-top: 20rem;
+margin-bottom: 30rem;
+display: flex;  
+
+max-width: 1500px;
+margin: 10%;
+
+
+
+
+}
+
+.text-info{ 
+width: 50%;
+
+
+
+}
+.Person-info{ display: flex; flex-direction: column; margin-left: auto ;
+
+    /* Centraliza horizontalmente */
+}
+.Foto-Cliente{
+    width: 300px;  
+    height: 300px; 
+    border-radius:50%; 
+
+}
+.borda_folhas{
+    width: 300px;  
+    height: 300px; 
+    border-radius:50%; 
+    background-size: cover;
+    background-position: center; 
+}
+.Nome_Crp{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.Titulo_QuemSomos{ font-size: 50px;
+    padding-bottom: 40px;
+}
+.Agendamento{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 3%;
+    background-color: white;
+    border-radius: 15px;
+    width: 20%;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.Agendamento input, .Agendamento button{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font: inherit;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+}
+
+.Agendamento button{
+    background: #57447B;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.Agendamento button:hover{
+    cursor: pointer;
+    color: lightgray;
+    
+}
+.legenda{ padding-bottom: 2rem;}
+.Contato{
+    font-family: 'Open Sans', sans-serif;
+    display: flexbox;
+    text-align: center;
+    padding: 3%;
+}
+
+.contato_text{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+   gap: 3rem;
+   background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2rem;
+}
+
+.endlogo{
+    width: 10%;
+    text-align: left;
+}
+
+h4, p{
+    padding-bottom: 10px;
+}
+
+
+

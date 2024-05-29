@@ -1,0 +1,129 @@
+/*media do header*/
+@media (max-width: 1000px) 
+{   .agend{display: none;} 
+#menu {
+    display: block;
+position: relative;
+    width: 100%;
+    right: 0px;
+    background: #CDC2D3;
+    transition: 0.6s;
+    z-index: 10;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    padding-right: 0;
+    margin-top: 0.4rem;
+}
+#nav.active #menu {
+    height: 85vh;
+    visibility: visible;
+    overflow-y: auto;
+}
+.nav-content { 
+display: flex;
+padding: 4rem 0;
+margin: 0 1rem;
+}
+
+#btn-mobile {
+    display: flex;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+#hamburger {  
+    border-top: 3px solid;
+    width: 20px;     
+}
+#hamburger::after,
+#hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+}
+#nav.active #hamburger {
+    border-top-color: transparent;
+}
+#nav.active #hamburger::before {
+transform: rotate(135deg);
+}
+#nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+.agend-mobile { color:#6A646D;
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid; outline: none; border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: .5s;
+    display: inline-block; margin-top: 1rem;}
+    
+    .agend-mobile:hover { background: #000000;
+    color: #ffffff;
+    
+}
+}
+
+/*media global*/
+@media (max-width: 1000px) {
+    .Box-Info{ display: flex; flex-direction: column;
+        width: 70%;
+        height: 100%;
+    margin-left: 1rem;
+    margin-top: 2rem;  padding-right: 3rem;
+    min-width: 0px;
+    }
+    .title { padding-left: 1.5rem;}
+.sub-title {padding-left: 1.5em;}
+.textbox-info{ padding-top: 4rem; font-size: 20px; font-weight: 400; text-align:left; margin-right: 0.5rem; line-height: 30px;}
+.textbox-info p {padding-bottom: 3rem;}
+.img-info{
+border-radius: 3rem;   Width: 100%; height: auto;
+margin-left: 0.5rem;}
+
+.service{ padding-bottom: 10rem; margin-top: 10rem;}
+.service-title{ text-align: center; }
+.works{  
+    height: 180vh;
+    display: flex; 
+    flex-direction:column;
+    gap: 5rem; align-items: center ;
+}
+.box{width: 70%;
+    
+text-align: left;
+font-size: 25px; line-height: 35px;
+height: 100%;
+}
+.box p{ font-size: 20px; line-height: 35px;}
+
+.carrosel{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.826);
+    transition: box-shadow 0.2s ease;
+    border-radius: 10px; 
+    width: 40vh;
+}
+.section_carrosel{ margin-bottom: 8rem;}
+
+.space_title{font-size: 30px;}
+
+.Espaco-QuemSomos{ flex-direction: column; 
+}
+.Person-info{ align-items: center; padding-top: 5rem;  width: 100%;}
+.text-info{ width: 100%; font-size: 20px;}
+
+}
+
